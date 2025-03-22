@@ -11,3 +11,10 @@ func TestAdd(t *testing.T) {
 		t.Errorf("Got %d, wanted %d", got, 32)
 	}
 }
+
+func TestSubtract(t *testing.T) {
+	got := calculator.Subtract(100, 101)
+	if got != -1 {
+		t.Errorf("Got %d, wanted %d", got, -1)
+	}
+}
