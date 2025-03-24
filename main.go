@@ -10,6 +10,7 @@ func main() {
 
 	fmt.Println("10 + 11 = ", calculator.Add(10, 11))
 	fmt.Println("100 - 99 = ", calculator.Subtract(100, 99))
+	fmt.Println("10 - 11 = ", calculator.Subtract(10, 11))
 
 	println("---------------------------------")
 }
