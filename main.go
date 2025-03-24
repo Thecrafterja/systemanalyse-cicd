@@ -12,5 +12,5 @@ func main() {
 	fmt.Println("100 - 99 = ", calculator.Subtract(100, 99))
 	fmt.Println("10 - 11 = ", calculator.Subtract(10, 11))
 
-	println("---------------------------------")
+	println("--------------------------------")
 }
